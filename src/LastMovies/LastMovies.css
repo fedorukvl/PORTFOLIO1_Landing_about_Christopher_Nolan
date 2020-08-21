@@ -1,0 +1,25 @@
+.lastMoviesDiv{
+	padding:0.1px;
+	display:flex;
+	flex-direction: row;
+}
+.interstellarDiv{
+	background-color: black;
+	width:50%;
+}
+.interstellarPicDiv img{
+	width:90%;
+}
+.lastMovieLinkDiv{
+	width:50%;
+	height: inherit;
+}
+
+@media (max-width: 480px) {
+	.interstellarDiv{
+		display:none;
+	}
+	.lastMovieLinkDiv{
+		width:100%;
+	}
+}

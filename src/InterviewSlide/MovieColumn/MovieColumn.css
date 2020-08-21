@@ -1,0 +1,27 @@
+.movieColumn{
+	height:inherit;
+	display:flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.movieColumn p{
+	font-size: 21px;
+}
+.movieColumn a{
+	text-align: center;
+	width:50%;
+	display:block;
+	margin:0 auto;
+	padding:5px;
+	border:4px solid black;
+	border-radius: 15px;
+	color:white;
+	background-color: RGB(71,71,71);
+	text-decoration:none;
+}
+
+@media (max-width: 480px) {
+	.movieColumn p,a{
+	font-size:14px;
+	}
+}

@@ -1,0 +1,25 @@
+.aboutNolanDiv{
+	padding:0.1px;
+	display:flex;
+	flex-direction: row;
+}
+.mementoDiv{
+	background-color: black;
+	width:50%;
+}
+.mementoPicDiv img{
+	width:90%;
+}
+.LinkDiv{
+	width:50%;
+	height: inherit;
+}
+
+@media (max-width: 480px) {
+	.mementoDiv{
+		display:none;
+	}
+	.LinkDiv{
+		width:100%;
+	}
+}

@@ -1,0 +1,55 @@
+.thirdIntroDiv{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 0.1px;
+}
+.introDiv,.thirdPicDiv{
+	width:50%;
+	height:inherit;
+}
+.thirdInfoDiv{
+	text-align: center;
+	padding-left: 30%;
+}
+.thirdInfoDiv h1{
+	font-size: 15em;
+}
+.thirdInfoDiv hr{
+	width:20%;
+	margin-left:40%;
+	margin-bottom: 5%;
+}
+.thirdInfoDiv strong{
+	letter-spacing: 5px;
+}
+.thirdPicDiv{
+	background-image: url("./img/nolan4.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+}
+
+@media (max-width: 768px){
+	.thirdInfoDiv{
+		padding-left: 0 !important;
+	}
+	.thirdInfoDiv h1{
+		font-size: 10em;
+	}
+	.thirdPicDiv{
+		background-position: center;
+	}
+}
+
+@media (max-width: 480px) {
+	.thirdInfoDiv{
+		padding-left: 0 !important;
+	}
+	.thirdInfoDiv h1{
+		font-size: 8em;
+	}
+	.thirdPicDiv{
+		background-position: center;
+	}
+}

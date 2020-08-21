@@ -1,0 +1,28 @@
+.link{
+	text-align: center;
+	font-size: 14px;
+}
+.link a{
+	display:block;
+	margin-top:0.5em;
+	padding:5px;
+	border:4px solid black;
+	border-radius: 15px;
+	color:white;
+	background-color: RGB(71,71,71);
+	text-decoration:none;
+}
+@media (max-width: 768px){
+	.link{
+		font-size: 10px;
+	}
+	.link a{
+		padding:4px;
+		border:2px solid black;
+	}
+}
+@media (max-width: 480px) {
+	.link{
+		font-size: 9px;
+	}
+}

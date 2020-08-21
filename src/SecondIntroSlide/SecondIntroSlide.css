@@ -1,0 +1,56 @@
+.secondIntroDiv{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 0.1px;
+}
+.introDiv,.secondPicDiv{
+	width:50%;
+	height:inherit;
+}
+.secondInfoDiv{
+	text-align: center;
+	padding-left: 30%;
+}
+.secondInfoDiv h1{
+	font-size: 15em;
+}
+.secondInfoDiv hr{
+	width:20%;
+	margin-left:40%;
+	margin-bottom: 5%;
+}
+.secondInfoDiv strong{
+	letter-spacing: 5px;
+}
+.secondPicDiv{
+	background-image: url("./img/nolan3.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+}
+
+@media (max-width: 768px){
+	.secondInfoDiv{
+		padding-left: 0 !important;
+	}
+	.secondInfoDiv h1{
+		font-size: 10em;
+	}
+	.secondPicDiv{
+		background-position: center;
+	}
+}
+
+@media (max-width: 480px) {
+	.secondInfoDiv{
+		padding-left: 0 !important;
+	}
+	.secondInfoDiv h1{
+		font-size: 8em;
+	}
+	.secondPicDiv{
+		background-position: center;
+	}
+
+}
