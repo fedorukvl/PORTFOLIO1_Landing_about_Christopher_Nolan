@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/PORTFOLIO1_Landing_about_Christopher_Nolan/static/css/main.b50a7018.chunk.css",
+    "main.js": "/PORTFOLIO1_Landing_about_Christopher_Nolan/static/js/main.5547aebb.chunk.js",
+    "main.js.map": "/PORTFOLIO1_Landing_about_Christopher_Nolan/static/js/main.5547aebb.chunk.js.map",
+    "runtime-main.js": "/PORTFOLIO1_Landing_about_Christopher_Nolan/static/js/runtime-main.5f04a9f8.js",
+    "runtime-main.js.map": "/PORTFOLIO1_Landing_about_Christopher_Nolan/static/js/runtime-main.5f04a9f8.js.map",
+    "static/js/2.aee7c933.chunk.js": "/PORTFOLIO1_Landing_about_Christopher_Nolan/static/js/2.aee7c933.chunk.js",
+    "static/js/2.aee7c933.chunk.js.map": "/PORTFOLIO1_Landing_about_Christopher_Nolan/static/js/2.aee7c933.chunk.js.map",
+    "index.html": "/PORTFOLIO1_Landing_about_Christopher_Nolan/index.html",
+    "precache-manifest.14a866a68065417b574c6e59c4436150.js": "/PORTFOLIO1_Landing_about_Christopher_Nolan/precache-manifest.14a866a68065417b574c6e59c4436150.js",
+    "service-worker.js": "/PORTFOLIO1_Landing_about_Christopher_Nolan/service-worker.js",
+    "static/css/main.b50a7018.chunk.css.map": "/PORTFOLIO1_Landing_about_Christopher_Nolan/static/css/main.b50a7018.chunk.css.map",
+    "static/js/2.aee7c933.chunk.js.LICENSE.txt": "/PORTFOLIO1_Landing_about_Christopher_Nolan/static/js/2.aee7c933.chunk.js.LICENSE.txt",
+    "static/media/NolanSlide.css": "/PORTFOLIO1_Landing_about_Christopher_Nolan/static/media/1.f7f02d6c.jpg",
+    "static/media/interstellar.jpg": "/PORTFOLIO1_Landing_about_Christopher_Nolan/static/media/interstellar.eed7ccd9.jpg",
+    "static/media/memento.jpg": "/PORTFOLIO1_Landing_about_Christopher_Nolan/static/media/memento.256fb30d.jpg",
+    "static/media/FirstIntroSlide.css": "/PORTFOLIO1_Landing_about_Christopher_Nolan/static/media/nolan1.ca3b39a3.jpg",
+    "static/media/SecondIntroSlide.css": "/PORTFOLIO1_Landing_about_Christopher_Nolan/static/media/nolan3.3f1d0a21.jpg",
+    "static/media/ThirdIntroSlide.css": "/PORTFOLIO1_Landing_about_Christopher_Nolan/static/media/nolan4.79e45c7e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5f04a9f8.js",
+    "static/js/2.aee7c933.chunk.js",
+    "static/css/main.b50a7018.chunk.css",
+    "static/js/main.5547aebb.chunk.js"
+  ]
+}
