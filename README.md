@@ -2,7 +2,7 @@
 1.Скачайте репозиторий;
 2.Устновите зависимости (npm instal);
 3.npm start
-Пока ссылка https://fedorukvl.github.io/PORTFOLIO1_Landing_about_Christopher_Nolan/ не работает :(
+
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
