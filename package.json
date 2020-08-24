@@ -1,5 +1,4 @@
 {
-	"homepage": "https://fedorukvl.github.io/PORTFOLIO1_Landing_about_Christopher_Nolan/",
 	"name": "nolanLand",
 	"version": "0.1.0",
 	"private": true,
@@ -15,9 +14,7 @@
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
-		"eject": "react-scripts eject",
-		"predeploy": "npm run build",
-		"deploy": "gh-pages -d build"
+		"eject": "react-scripts eject"
 	},
 	"eslintConfig": {
 		"extends": "react-app"
