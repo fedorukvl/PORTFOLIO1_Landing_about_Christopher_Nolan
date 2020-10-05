@@ -1,29 +1,26 @@
-.lastMovielinkDiv p{
+.lastMovielinkDiv p {
 	font-size: 19px;
-	padding:10px;
+	padding: 10px;
 }
-.linksDiv{
+.linksDiv {
 	margin-top: 5em;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 }
-@media (max-width: 768px){
-	.lastMovielinkDiv{
-		margin-top: 230px;
-	}
-	.lastMovielinkDiv p{
+@media (max-width: 768px) {
+	.lastMovielinkDiv p {
 		font-size: 12px;
 	}
-	.linksDiv{
+	.linksDiv {
 		margin-top: 1em;
 	}
 }
 @media (max-width: 480px) {
-	.lastMovielinkDiv p{
-		font-size: 14px ;
+	.lastMovielinkDiv p {
+		font-size: 10px;
 	}
-	.linksDiv{
+	.linksDiv {
 		margin-top: 1em;
 	}
 }

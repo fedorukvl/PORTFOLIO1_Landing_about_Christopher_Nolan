@@ -1,56 +1,61 @@
-.FirstIntroDiv{
-	display:flex;
+.FirstIntroDiv {
+	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	padding: 0.1px;
+	height: 100vh;
 }
-.introDiv,.picDiv{
-	width:50%;
-	height:inherit;
+.introDiv {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 50%;
+	height: 100%;
 }
-.infoDiv{
+.picDiv {
+	width: 50%;
+}
+.infoDiv {
 	text-align: center;
-	padding-left: 30%;
 }
-.infoDiv h1{
+.infoDiv h1 {
 	font-size: 15em;
 }
-.infoDiv hr{
-	width:20%;
-	margin-left:40%;
+.infoDiv hr {
+	width: 20%;
+	margin-left: 40%;
 	margin-bottom: 5%;
 }
-.infoDiv strong{
+.infoDiv strong {
 	letter-spacing: 5px;
 }
-.picDiv{
+.picDiv {
 	background-image: url("./img/nolan1.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top;
 }
 
-@media (max-width: 768px){
-	.infoDiv{
+@media (max-width: 768px) {
+	.infoDiv {
 		padding-left: 0 !important;
 	}
-	.infoDiv h1{
+	.infoDiv h1 {
 		font-size: 10em;
 	}
-	.picDiv{
+	.picDiv {
 		background-position: left;
 	}
 }
 
 @media (max-width: 480px) {
-	.infoDiv{
+	.infoDiv {
 		padding-left: 0 !important;
 	}
-	.infoDiv h1{
+	.infoDiv h1 {
 		font-size: 8em;
 	}
-	.picDiv{
+	.picDiv {
 		background-position: left;
 	}
-
 }

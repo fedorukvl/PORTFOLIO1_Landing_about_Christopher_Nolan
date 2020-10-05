@@ -1,29 +1,26 @@
-.linkDiv p{
+.linkDiv p {
 	font-size: 19px;
-	padding:10px;
+	padding: 10px;
 }
-.linksDiv{
+.linksDiv {
 	margin-top: 5em;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 }
-@media (max-width: 768px){
-	.linkDiv{
-		margin-top: 230px;
-	}
-	.linkDiv p{
+@media (max-width: 768px) {
+	.linkDiv p {
 		font-size: 12px;
 	}
-	.linksDiv{
+	.linksDiv {
 		margin-top: 1em;
 	}
 }
 @media (max-width: 480px) {
-	.linkDiv p{
+	.linkDiv p {
 		font-size: 14px;
 	}
-	.linksDiv{
+	.linksDiv {
 		margin-top: 1em;
 	}
 }

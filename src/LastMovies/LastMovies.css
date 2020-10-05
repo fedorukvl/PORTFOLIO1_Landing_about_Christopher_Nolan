@@ -1,25 +1,31 @@
-.lastMoviesDiv{
-	padding:0.1px;
-	display:flex;
+.lastMoviesDiv {
+	padding: 0.1px;
+	height: 100vh;
+	display: flex;
 	flex-direction: row;
 }
-.interstellarDiv{
+.interstellarDiv {
+	display: flex;
+	align-items: center;
 	background-color: black;
-	width:50%;
+	width: 50%;
+	height: 100%;
 }
-.interstellarPicDiv img{
-	width:90%;
+.interstellarPicDiv img {
+	width: 90%;
 }
-.lastMovieLinkDiv{
-	width:50%;
-	height: inherit;
+.lastMovieLinkDiv {
+	display: flex;
+	align-items: center;
+	width: 50%;
+	height: 100%;
 }
 
 @media (max-width: 480px) {
-	.interstellarDiv{
-		display:none;
+	.interstellarDiv {
+		display: none;
 	}
-	.lastMovieLinkDiv{
-		width:100%;
+	.lastMovieLinkDiv {
+		width: 100%;
 	}
 }

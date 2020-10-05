@@ -1,25 +1,31 @@
-.aboutNolanDiv{
-	padding:0.1px;
-	display:flex;
+.aboutNolanDiv {
+	padding: 0.1px;
+	display: flex;
 	flex-direction: row;
+	height: 100vh;
 }
-.mementoDiv{
+.mementoDiv {
 	background-color: black;
-	width:50%;
+	width: 50%;
+	height: 100%;
+	display: flex;
+	align-items: center;
 }
-.mementoPicDiv img{
-	width:90%;
+.mementoPicDiv img {
+	width: 95%;
 }
-.LinkDiv{
-	width:50%;
-	height: inherit;
+.LinkDiv {
+	width: 50%;
+	height: 100%;
+	display: flex;
+	align-items: center;
 }
 
 @media (max-width: 480px) {
-	.mementoDiv{
-		display:none;
+	.mementoDiv {
+		display: none;
 	}
-	.LinkDiv{
-		width:100%;
+	.LinkDiv {
+		width: 100%;
 	}
 }
